@@ -1,0 +1,82 @@
+React-Basics:
+Ques-1: What us Reactjs?
+Ans: ReactJS is an open-source JavaScript library for building user interfaces (UIs) and single-page applications.
+It was developed and is maintained by Facebook and a community of individual developers. React is one of the 
+most popular and widely used libraries for building front-end web applications.
+The main goal of React is to enable developers to build reusable, component-based UI components that can 
+efficiently update and render data as the application state changes. React uses a declarative and 
+component-based approach, which means developers can describe how the UI should look based on the current state, 
+and React will take care of updating the DOM efficiently.
+
+==> Key features of ReactJS include:
+
+Components: React breaks the UI into small, reusable, and self-contained components. Each component manages its 
+state and lifecycle, which makes it easier to build and maintain complex UIs.
+
+Virtual DOM: React uses a virtual representation of the DOM to efficiently update only the necessary parts of 
+the actual DOM. This approach reduces the number of costly DOM operations, resulting in improved performance.
+
+JSX (JavaScript XML): React allows developers to write UI components using JSX, which is a syntax extension that
+enables HTML-like syntax within JavaScript code. JSX makes the code more readable and maintainable.
+
+Unidirectional Data Flow: React follows a unidirectional data flow, where data flows from parent components to 
+child components. This ensures predictable state management and easier debugging.
+
+React Hooks: Introduced in React 16.8, hooks are functions that allow developers to use state and other React 
+features without writing a class. Hooks simplify the code and promote reuse of stateful logic.
+
+Rich Ecosystem: React has a vast ecosystem of third-party libraries, tools, and extensions that make it even 
+more powerful for various use cases.
+
+
+
+Ques-2: why we use reactjs?
+Ans: ReactJS is used for several reasons, and its popularity stems from the advantages it offers to developers 
+and the overall development process. Here are some key reasons why ReactJS is widely used:
+
+Component-Based Architecture: React promotes a modular and component-based approach to building user interfaces.
+Each component is self-contained, making it easy to manage and reuse code. This component-based architecture 
+helps in creating more maintainable and scalable applications.
+
+Declarative Syntax: React uses a declarative approach, where developers describe how the UI should look based 
+on the current state, rather than imperatively defining the DOM manipulation. This makes the code more readable 
+and easier to understand.
+
+Virtual DOM and Efficient Rendering: React uses a virtual representation of the DOM (Virtual DOM) that allows 
+it to efficiently update only the necessary parts of the actual DOM when the application state changes. 
+This approach reduces costly DOM operations and improves application performance.
+
+One-Way Data Binding: React follows a unidirectional data flow, where data flows from parent components to 
+child components. This makes it easier to track changes and understand the application state, leading to more predictable behavior.
+
+React Hooks: Introduced in React 16.8, hooks allow developers to use state and other React features without writing class components. 
+Hooks make it easier to reuse stateful logic and simplify the code.
+
+Large and Active Community: React has a massive and active community of developers, which means there is a wealth of resources, libraries, 
+and tools available to support React-based projects.
+
+React Native: React can be used to build not only web applications but also mobile applications through React Native. With React Native, 
+developers can use the same codebase to build native mobile apps for iOS and Android platforms.
+
+Performance Optimization: React's efficient rendering process and Virtual DOM help optimize application performance. Additionally, React's 
+ability to handle rendering on the server-side (Server-Side Rendering - SSR) can improve initial load times and SEO.
+
+Great Developer Tools: React comes with excellent developer tools like React DevTools, which facilitate debugging, inspecting component 
+hierarchies, and monitoring performance.
+
+Easy Integration: React can be easily integrated into existing applications. It works well with other libraries and frameworks, and it is not 
+opinionated about the rest of the technology stack.
+
+Backed by Facebook: React is developed and maintained by Facebook, which provides stability, regular updates, and long-term support to the 
+library.
+
+
+
+Ques-3: What is State and Event?
+State:
+"State" refers to the current condition or data of a component or application at a specific moment in time. In ReactJS, components can have 
+state, which represents the data that can change over time and influences how the component renders and behaves. State allows components to 
+dynamically update and re-render based on user interactions, data changes, or other triggers.
+Events:
+"Events" are actions or occurrences that happen in the user interface, such as clicking a button, typing in an input field, or scrolling. 
+In React, you can handle events using event handlers, which are functions that respond to specific events and execute some code in response.
