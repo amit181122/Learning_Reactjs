@@ -1,0 +1,19 @@
+  
+  .toggle-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+
+  .green {
+    background-color: #4caf50;
+  }
+  
+  .red {
+    background-color: #f44336;
+  }
+  
+  

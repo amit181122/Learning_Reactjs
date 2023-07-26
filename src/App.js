@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import ToggleButton from './Components/Button'
+import ConditionalButton from './Components/Conditional'
+import Practice from './Components/Task3/Practice1'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: 'center'}}>
+      <h1>Task-1:</h1>
+      <ToggleButton/>
+      <h1>Task-2:</h1>
+      <ConditionalButton/>
+      <h1>Task-3:</h1>
+      <Practice/>
     </div>
   );
 }
