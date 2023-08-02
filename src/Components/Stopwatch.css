@@ -1,0 +1,77 @@
+/* Stopwatch.css */
+.stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .watch {
+    width: 180px;
+    height: 180px;
+    background-color: #f7f7f7;
+    border: 8px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .time-display > div {
+    padding: 0 6px;
+  }
+  
+  .time-separator {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .start-pause-button,
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-pause-button.start {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .start-pause-button.pause {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .reset-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .start-pause-button:hover,
+  .reset-button:hover {
+    opacity: 0.8;
+  }
+  
+  .start-pause-button:active,
+  .reset-button:active {
+    transform: scale(0.95);
+  }
+  
