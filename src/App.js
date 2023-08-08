@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import GetApiCall from "./Components/GetApiCall";
+import PostApiCall from "./Components/PostApiCall";
+import PutApiCall from './Components/PutApiCall';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/get">
+            <GetApiCall />
+          </Route>
+          <Route path="/post">
+            <PostApiCall />
+          </Route>
+          <Route path="/put">
+            <PutApiCall />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
