@@ -1,0 +1,39 @@
+.task-app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* overflow-x: auto; */
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.task.completed {
+  background-color: #f0f0f0;
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+  
+.button-group {
+    display: flex;
+    gap: 5px;
+  }
